@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Review Sentiment Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <div class="container">
+        <h1>_ Flipkart Review Sentiment Analysis _</h1>
+        <form action="/predict" method="POST">
+            <textarea name="text" placeholder="Enter your text here"></textarea>
+            <button type="submit">Predict Emotion</button>
+            {% if error %}
+                <p class="error">{{ error }}</p>
+            {% endif %}
+            {% if prediction %}
+                <p class="{% if prediction == 'Positive' %}positive{% else %}negative{% endif %}">{{ prediction }}</p>
+            {% endif %}
+        </form>
+    </div>
+</body>
+</html>

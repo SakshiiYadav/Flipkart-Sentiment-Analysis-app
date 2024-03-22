@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+body {
+    background-color: #ece3e39d; 
+    color: #333; 
+    font-family: 'Roboto', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f3f3f3bd;
+    border-radius: 10px;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+    color: #0881eb; 
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+}
+
+textarea {   
+    width: 488px;
+    height: 127px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f7f7f7; 
+    border: 1px solid #ccc;
+}
+
+button {
+    font-family: 'Playfair Display', serif;
+    width: 438px;
+    padding: 10px;
+    background-color: #3190f7;
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+.error {
+    color: #ff5e5e; 
+    margin-top: 5px; 
+}
+
+.positive {
+    color: #4caf50; 
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.negative {
+    color: #f44336; 
+    font-weight: bold;
+    font-size: 25px;
+}
