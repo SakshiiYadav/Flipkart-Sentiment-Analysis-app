@@ -30,9 +30,8 @@ To use the sentiment analysis app:
 - Run the Flask application using python app.py.                          
 - Access the application at http://localhost:5000/ in your web browser.             
 
-### *Note:*
-I have later deployed this app on AWS, as I have not enrolled for paid services the website is not secured and everytime the instance stops and restarts the IP address changes for it.
-
 ## 📝License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+### *Note:*
+I have later deployed this app on AWS, as I have not enrolled for paid services the website is not secured and everytime the instance stops and restarts the IP address changes for it.
